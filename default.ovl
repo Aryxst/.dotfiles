@@ -1,0 +1,296 @@
+[Master]
+Implementation=2
+FontFace=GeForce
+FontHeight=-11
+FontWeight=700
+ZoomRatio=2
+[Settings]
+Name=
+EnvVars=
+RefreshPeriod=1000
+EmbeddedImage=
+PingAddr=
+[General]
+Sources=11
+Tables=1
+Layers=22
+[Source0]
+Name=Display1 refresh rate
+Units=Hz
+Format=
+Formula=
+Provider=HAL
+ID=Display1 refresh rate
+[Source1]
+Name=CPU usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU usage
+[Source2]
+Name=CPU temperature
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=CPU temperature
+[Source3]
+Name=CPU clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU clock
+[Source4]
+Name=RAM usage \ process
+Units=MB
+Format=
+Formula=
+Provider=HAL
+ID=RAM usage \ process
+[Source5]
+Name=GPU1 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 clock
+[Source6]
+Name=GPU1 temperature
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 temperature
+[Source7]
+Name=GPU1 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 usage
+[Source8]
+Name=GPU1 memory usage \ process
+Units=MB
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 memory usage \ process
+[Source9]
+Name=GPU1 memory usage
+Units=MB
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 memory usage
+[Source10]
+Name=GPU1 memory clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 memory clock
+[Table0]
+Name=
+Lines=1
+Line0Name=sasasasas
+Line0Cells=1
+Line0Cell0Source=Framerate
+[Layer0]
+Name=GPU Name
+Text="%GPU% "
+PositionX=0
+PositionY=0
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=8000
+[Layer1]
+Name=GPU Temperature
+Text=GPU TEMP.
+PositionX=0
+PositionY=-1
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=8000
+[Layer2]
+Name=GPU VRAM
+Text=VRAM
+PositionX=0
+PositionY=-2
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=8000
+[Layer3]
+Name=GPU Current Clock
+Text=C.CLOCK
+PositionX=0
+PositionY=-3
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=8000
+[Layer4]
+Name=GPU Memory Clock
+Text=M.CLOCK
+PositionX=0
+PositionY=-4
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=8000,,(Framerate,0)
+[Layer5]
+Name=CPU Name
+Text=%CPU%
+PositionX=0
+PositionY=-6
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=80FF
+[Layer6]
+Name=CPU Temperature
+Text=CPU TEMP.
+PositionX=0
+PositionY=-7
+ExtentX=-6
+ExtentY=-1
+ExtentOrigin=0
+TextColor=80FF
+[Layer7]
+Name=CPU Current Clock(Avg)
+Text=CPU CLOCK
+PositionX=0
+PositionY=-8
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=80FF
+[Layer8]
+Name=Current Process RAM
+Text=RAM
+PositionX=0
+PositionY=-10
+ExtentX=-2
+ExtentY=-1
+ExtentOrigin=0
+[Layer9]
+Name=Rendering API(abbr)
+Text=<APP>
+PositionX=0
+PositionY=-11
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=FF8040
+[Layer10]
+Name=
+Text=: %GPU1 memory usage% MB
+PositionX=-11
+PositionY=-2
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=FFFFFF
+[Layer11]
+Name=
+Text=: %GPU1 memory clock% MHz
+PositionX=-11
+PositionY=-4
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=FFFFFF
+[Layer12]
+Name=
+Text=: %GPU1 clock% MHz
+PositionX=-11
+PositionY=-3
+ExtentX=-3
+ExtentY=-1
+ExtentOrigin=0
+TextColor=FFFFFF
+[Layer13]
+Name=
+Text=: <C=FFFFFF,,80,FF0000,80,(%CPU usage%,1)>%CPU usage%<C> <C=FFFFFF>%
+PositionX=-11
+PositionY=-6
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=FFFFFF
+[Layer14]
+Name=
+Text=: <C=FFFFFF,,85,FF0000,85,(%CPU temperature%,1)>%CPU temperature%<C=FFFFFF> °C\r\n
+PositionX=-11
+PositionY=-7
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=FFFFFF
+[Layer15]
+Name=
+Text=: %CPU clock% MHz
+PositionX=-11
+PositionY=-8
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=FFFFFF
+[Layer16]
+Name=
+Text=: %RAM usage \ process% MB
+PositionX=-11
+PositionY=-10
+ExtentX=-2
+ExtentY=-1
+ExtentOrigin=0
+TextColor=FFFFFF
+[Layer17]
+Name=
+Text=: <C=FF0000,,30,FF0000,30,45,FFFF00,45,60,FFFFFF,60,(FR,1)>%Framerate% FPS
+PositionX=-11
+PositionY=-11
+ExtentX=-5
+ExtentY=-1
+ExtentOrigin=0
+TextColor=FFFFFF
+[Layer18]
+Name=Resolution
+Text=RES.
+PositionX=0
+PositionY=-12
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=FF0000
+[Layer19]
+Name=
+Text=: <RES>\n  %Display1 refresh rate% Hz
+PositionX=-11
+PositionY=-12
+ExtentX=-5
+ExtentY=-1
+ExtentOrigin=0
+TextColor=FFFFFF
+[Layer20]
+Name=
+Text=: <C=FFFFFF,,80,FF0000,80,(%GPU1 usage%,1)>%GPU1 usage%<C> <C=FFFFFF>%\r\n
+PositionX=-11
+PositionY=0
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=FFFFFF
+[Layer21]
+Name=
+Text=<C=FFFFFF,,80,FF0000,80,(%GPU1 temperature%,1)>%GPU1 temperature%<C=FFFFFF> °C
+PositionX=-11
+PositionY=-1
+ExtentX=0
+ExtentY=0
+ExtentOrigin=0
+TextColor=FFFFFF
