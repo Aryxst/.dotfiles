@@ -30,7 +30,7 @@ Provider=HAL
 ID=CPU usage
 [Source2]
 Name=CPU temperature
-Units=캜
+Units=째C
 Format=
 Formula=
 Provider=HAL
@@ -58,7 +58,7 @@ Provider=HAL
 ID=GPU1 clock
 [Source6]
 Name=GPU1 temperature
-Units=캜
+Units=째C
 Format=
 Formula=
 Provider=HAL
@@ -224,7 +224,7 @@ ExtentOrigin=0
 TextColor=FFFFFF
 [Layer14]
 Name=
-Text=: <C=FFFFFF,,85,FF0000,85,(%CPU temperature%,1)>%CPU temperature%<C=FFFFFF> 캜\r\n
+Text=: <C=FFFFFF,,85,FF0000,85,(%CPU temperature%,1)>%CPU temperature%<C=FFFFFF> 째C\r\n
 PositionX=-11
 PositionY=-7
 ExtentX=0
@@ -287,7 +287,7 @@ ExtentOrigin=0
 TextColor=FFFFFF
 [Layer21]
 Name=
-Text=<C=FFFFFF,,80,FF0000,80,(%GPU1 temperature%,1)>%GPU1 temperature%<C=FFFFFF> 캜
+Text=<C=FFFFFF,,80,FF0000,80,(%GPU1 temperature%,1)>%GPU1 temperature%<C=FFFFFF> 째C
 PositionX=-11
 PositionY=-1
 ExtentX=0
